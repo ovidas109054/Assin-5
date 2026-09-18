@@ -1,12 +1,19 @@
 import { useState } from 'react'
+import Nav from './Nav'
+import Baner from './Baner'
+import Footer from './Footer'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-      
+    <><Nav></Nav>
+    <Baner></Baner>
+    
+
+
+    <Footer></Footer>
     </>
   )
 }
