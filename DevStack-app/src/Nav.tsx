@@ -5,7 +5,7 @@ const Nav = () => {
         <div>
             
             <nav className = "sticky top-0 z-50 w-full border-b border-gray-100">
-               <div className = "flex justify-between container mx-auto" items-center >
+               <div className = "flex justify-between container mx-auto items-center">
                 <img src={logo} alt="Decstac" className='w-22 h-10 object-contain'/>
 
                 <ul className='flex gap-4 items-center text-sm px-0.8'>
