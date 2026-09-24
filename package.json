@@ -4,5 +4,17 @@
     "react-hot-toast": "^2.6.1",
     "react-toastify": "^11.1.0",
     "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+
+  "scripts": {
+    "dev":"vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview":"vite preview",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist"
   }
 }

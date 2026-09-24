@@ -1,6 +1,6 @@
-import React from 'react';
+
 import type { CardType } from './Types';
-import {use} from 'react'
+
 
 const Stack = ({selectedStack,onRemove, onRemoveAll}:{selectedStack: CardType[]; onRemove:(id:string) => void; onRemoveAll:() => void}) => {
     
