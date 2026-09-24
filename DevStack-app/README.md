@@ -30,3 +30,18 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+
+1. JSX is a syntax that lets us write Html like code inside Javascript. It makes react ui code easier to write and understand.
+
+2. Props are data passed from a parent to a child component. State is data managed inside a component that can change over time.
+
+3. useState is used to create an update component data . In my project. I used it to store the selected technologies in selectedStack
+
+4. useEfect runs code after the component renders. It can be used to fetch JSON data when the page loads
+
+5. The key helps react identify each item in a list. It helps React updata the list corectly when something changes
+
+6. Conditional rendering means showing something based on a condition. For exmple to show the emply stack massage selectedStack.length === 0
+
+7. The parent sends data to the child using props.  The child can send information back by calling a function passed form the a parent as a prop.

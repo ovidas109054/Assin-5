@@ -25,8 +25,10 @@ const [selectedStack, setSelectedStack] = useState<CardType[]>([])
 const addStack = (card:CardType) =>{
   setSelectedStack((prev) =>{
     const alreadyadd = prev.some((item) => item.id ===card.id)
-      if(alreadyadd) return prev
-      return[...prev, card]
+      if(alreadyadd){
+        return prev
+      }return[...prev, card]
+      
   })
   toast.success(`${card.name} ✓Added to Stack`)
 }
@@ -60,7 +62,7 @@ const removeAll = () =>{
     </main>
          
     <Footer></Footer>
-    <ToastContainer position='bottom-right' autoClose={400} aria-label="Notification"/>
+    <ToastContainer position='bottom-right' autoClose={400} />
     </>
 
   )
